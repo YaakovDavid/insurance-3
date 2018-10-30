@@ -131,10 +131,11 @@ a{
 
 footer{
   margin-top: 30px;
-  border-top: 1px solid rgb(68, 190, 190);
+  /* border-top: 1px solid rgb(68, 190, 190); */
   height: 60px;
   padding: 10px;
-
+  background-color: rgb(68, 190, 190);
+  color: white;
 }
 
 .space{
