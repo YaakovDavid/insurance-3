@@ -1,0 +1,153 @@
+.wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+ul{
+  list-style: none;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
+
+.pod-card{
+  width: 30%;
+  float: left;
+  margin: 0 1% 2rem 1%;
+  /* -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.25); */
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.25);
+  border-radius: .35rem;
+  /* background-color: rgb(68, 190, 190); */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    background-position: center;
+
+}
+
+.logos, .posters, .invitations, .emails, .monograms, .packging, .brochures, .web-images, .pod-card{
+  color: white;
+  text-align: center;
+  height: 300px;
+  width: 30%;
+}
+
+/* .logos:hover, .posters:hover, .invitations:hover, .emails:hover, .monograms:hover, .packging:hover, .brochures:hover, .web-images:hover, .pod-card:hover{
+   background-image:
+    linear-gradient(
+      rgba(122, 248, 248, 0.1),
+      rgba(0, 0, 0, 0.9)
+    )
+} */
+
+.title{
+  position: relative;
+  top: 100px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.logos {
+  background-image:
+    linear-gradient(
+      rgba(108, 18, 131, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/itravel.png);
+}
+
+.posters{
+  background-image:
+    linear-gradient(
+      rgba(68, 190, 190, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/img.png);
+}
+
+.invitations{
+  background-image:
+    linear-gradient(
+      rgba(226, 250, 8, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/allianz.png);
+}
+
+.emails{
+  background-image:
+    linear-gradient(
+      rgba(252, 9, 9, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/allianz.png);
+}
+
+.monograms{
+  background-image:
+    linear-gradient(
+      rgba(143, 78, 248, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/geoblue.png);
+}
+
+.packging{
+  background-image:
+    linear-gradient(
+      rgba(63, 245, 7, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/atlas.png);
+}
+
+.banner{
+  color: rgb(68, 190, 190);
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 40px;
+  text-transform: uppercase;
+  font-family: cursive;
+  height: 60px;
+  border-bottom: 1px solid rgb(68, 190, 190);
+  margin-bottom: 30px;
+}
+
+.clearfooter {
+  clear: both;
+}
+
+footer{
+  margin-top: 30px;
+  border-top: 1px solid rgb(68, 190, 190);
+  height: 60px;
+  padding: 10px;
+
+}
+
+.space{
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
